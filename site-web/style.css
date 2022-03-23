@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "myFont";
+    src: url("./Comfortaa-VariableFont_wght.ttf");
+    
+}
+
+html {
+    font-family: "myFont", "Bitstream Vera Serif", serif;
+    color: antiquewhite;
+
+    margin-bottom: 30px;
+}
+
+body {
+    /*Creation du degradé*/
+    background: rgb(0,168,149);
+    background: linear-gradient(90deg, rgba(0,168,149,1) 0%, rgb(43, 105, 98) 93%); 
+}
+.titre {
+    text-align: center;
+    font-size: 4em;
+}
+
+.tab { 
+    /*Position*/
+    position: absolute;
+    left: 30vw; top: 25vh;
+
+    /*Taille*/
+    width: 40vw; height: 5vw;
+    font-size: 2em;
+    
+    /*Fond*/
+    background-color: #295b56;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.valeur {
+    padding-right: 40px;
+    width: 40vw;
+    text-align: right;
+}
+
+.courbeTemp {
+    /*Position*/
+    position: absolute;
+    left: 10vw; top: 50vh;
+
+    /*Fond*/
+    background-color: #295b56;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.courbeHum {
+    /*Position*/
+    position: absolute;
+    left: 10vw; top: 110vh;
+
+    /*Fond*/
+    background-color: #295b56;
+    padding: 30px;
+    border-radius: 30px;
+
+}
+
+.courbeCO2 {
+    /*Position*/
+    position: absolute;
+    left: 10vw; top: 160vh;
+
+    /*Fond*/
+    background-color: #295b56;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.botText {
+    position: absolute;
+    top: 210vh;
+}
